@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.agenda_db.MainActivity">
+
+    <item
+        android:id="@+id/mnxAgregar"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Agregar"/>
+
+    <item
+        android:id="@+id/mnxModificar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Modificar"/>
+
+    <item
+        android:id="@+id/mnxEliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar"/>
+</menu>
